@@ -8,4 +8,4 @@
 - To integrate memory stored OGGs with Godot
 - To help the Godot community
 # Credits
-![NathanFranke's GDExtension template](https://github.com/nathanfranke/gdextension)
+[NathanFranke's GDExtension template](https://github.com/nathanfranke/gdextension)
