@@ -26,7 +26,7 @@ This project was aimed to be used as a **GDExtension Library**.
 - It handles some extra stuff before it is detected as an OGG file, then it calls `resource_importer_ogg_vorbis`.
 - Afterwards, it decodes it with the OGG library from Xiph via a C++ Byte Array from reading a file.
 - Then it gives the data to an `OGGPacketSequence` before being returned as an `AudioStreamOGGVorbis` instance.
-<img src="img/code1.svg" width="75%" height="75%">
+<img src="img/code1.svg" width="50%" height="50%">
 
 ## Solution
 - To process the `PackedByteArray` and get the `granule_positions` and `packet_data` for the `OGGPacketSequence`.
@@ -42,12 +42,12 @@ This project was aimed to be used as a **GDExtension Library**.
 # API Usage
 The library will create a singleton named `OggLoader` which you can directly call in your `.gd` files.
 - `OggLoader.proc` \
-  <img src="img/code2.svg" width="75%" height="75%">
+  <img src="img/code2.svg" width="50%" height="50%">
   - This function processes the `PackedByteArray` and caches it with an `ID`<-**(IMPORTANT)**
   - It caches the `granule_positions` and `packet_data` for an `OGGPacketSequence`.
   - It returns a boolean. **True** if it was successful and **False** if it failed.
   - Example: \
-    <img src="img/code3.svg" width="75%" height="75%">
+    <img src="img/code3.svg" width="50%" height="50%">
   - Note: I recommend you to check if it is cached first before calling this function so that it won't perform unnecessary things by doing `OggLoader.cached`. (Also, after you called proc and are done getting the `granule_positions` and `packet_data` variables, please uncache it if you don't want it to waste memory via `OggLoader.remove`)
 - `OggLoader.cached` \
-  <img src="img/code4.svg" width="75%" height="75%">
+  <img src="img/code4.svg" width="50%" height="50%">
