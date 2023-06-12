@@ -76,8 +76,7 @@ The library will create a singleton named `OggLoader` which you can directly cal
   <img src="img/code11.svg" width="50%" height="50%">
 
 ## OggLoader.remove
-<img src="img/code12.svg" width="50%" height="50%">
-<br />
+<img src="img/code12.svg" width="50%" height="50%">__
 - This function searches the cache via the given **ID** then removes it.
 - It returns a boolean. **True** if the operation was successful and **False** if it failed.
 - Example: \
