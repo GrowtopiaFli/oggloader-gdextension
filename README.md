@@ -26,7 +26,7 @@ This project was aimed to be used as a **GDExtension Library**.
 - It handles some extra stuff before it is detected as an OGG file, then it calls `resource_importer_ogg_vorbis`.
 - Afterwards, it decodes it with the OGG library from Xiph via a C++ Byte Array from reading a file.
 - Then it gives the data to an `OGGPacketSequence` before being returned as an `AudioStreamOGGVorbis` instance.
-<img src="img/code1.svg" width="75%" height="75%">
+<img src="img/code1.svg" width="65%" height="65%">
 
 ## Solution
 - To process the `PackedByteArray` and get the `granule_positions` and `packet_data` for the `OGGPacketSequence`.
@@ -42,4 +42,4 @@ This project was aimed to be used as a **GDExtension Library**.
 # API Usage
 The library will create a singleton named `OggLoader` which you can directly call in your `.gd` files.
 - `OggLoader.proc`
-  <img src="img/code2.svg">
+  <img src="img/code2.svg" width="75%" height="75%">
