@@ -56,4 +56,4 @@ The library will create a singleton named `OggLoader` which you can directly cal
   - Example: \
     <img src="img/code5.svg" width="50%" height="50%">
 - `OggLoader.get_granule_positions` \
-  <img src="img/code6.svg" width="50%" height="50%">
+    <img src="img/code6.svg" width="50%" height="50%">
