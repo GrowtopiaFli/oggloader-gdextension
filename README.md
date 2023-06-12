@@ -60,3 +60,8 @@ The library will create a singleton named `OggLoader` which you can directly cal
   - This function searches the cache via the given **ID** then returns the `granule_positions`.
   - Example: \
     <img src="img/code7.svg" width="50%" height="50%">
+- `OggLoader.get_packet_data` \
+  <img src="img/code8.svg" width="50%" height="50%">
+  - This function searches the cache via the given **ID** then returns the `packet_data`.
+  - Example: \
+    <img src="img/code9.svg" width="50%" height="50%">
