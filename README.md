@@ -55,3 +55,5 @@ The library will create a singleton named `OggLoader` which you can directly cal
   - It returns a boolean. **True** if the specified ID is in the cache and **False** if it is not.
   - Example: \
     <img src="img/code5.svg" width="50%" height="50%">
+- `OggLoader.get_granule_positions` \
+  <img src="img/code6.svg" width="50%" height="50%">
