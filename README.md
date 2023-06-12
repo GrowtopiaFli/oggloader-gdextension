@@ -36,3 +36,4 @@ This project was aimed to be used as a **GDExtension Library**.
 
 # Setup
 - Download the library from the [Releases](https://github.com/GrowtopiaFli/oggloader-gdextension/releases).
+- Extract it to your Godot project. (I recommend extracting the `oggloader` folder in the `addons` folder of your project)
