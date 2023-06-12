@@ -92,7 +92,7 @@ The library will create a singleton named `OggLoader` which you can directly cal
   <img src="img/code15.svg" width="50%" height="50%">
 
 # Load Example
-An example of how you will load an external OGG file.
+An example of how you will load an external OGG file. \
 <img src="img/code16.svg" width="50%" height="50%">
 
 # Sidenote
