@@ -43,3 +43,4 @@ This project was aimed to be used as a **GDExtension Library**.
 The library will create a singleton named `OggLoader` which you can directly call in your `.gd` files.
 - `OggLoader.proc` \
   <img src="img/code2.svg" width="75%" height="75%">
+  - This function processes the `PackedByteArray` and caches it with an `ID`<-**(IMPORTANT)**
