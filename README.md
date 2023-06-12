@@ -51,3 +51,7 @@ The library will create a singleton named `OggLoader` which you can directly cal
   - Note: I recommend you to check if it is cached first before calling this function so that it won't perform unnecessary things by doing `OggLoader.cached`. (Also, after you called proc and are done getting the `granule_positions` and `packet_data` variables, please uncache it if you don't want it to waste memory via `OggLoader.remove`)
 - `OggLoader.cached` \
   <img src="img/code4.svg" width="50%" height="50%">
+  - This function checks if something was cached through an **ID**.
+  - It returns a boolean. **True** if the specified ID is in the cache and **False** if it is not.
+  - Example: \
+    <img src="img/code5.svg" width="50%" height="50%">
