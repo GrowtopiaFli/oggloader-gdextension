@@ -45,7 +45,7 @@ The library will create a singleton named `OggLoader` which you can directly cal
 ## OggLoader.proc
 <img src="img/code2.svg" width="50%" height="50%"><br />
 - This function processes the `PackedByteArray` and caches it with an **ID<-(IMPORTANT)**
-- It caches the `granule_positions` and `packet_data` for an `OGGPacketSequence`.
+- It caches the `granule_positions` and `packet_data` for an `OggPacketSequence`.
 - It returns a boolean. **True** if it was successful and **False** if it failed.
 - Example: \
   <img src="img/code3.svg" width="50%" height="50%">
