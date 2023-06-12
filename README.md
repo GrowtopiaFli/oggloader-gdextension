@@ -17,6 +17,12 @@
 
 # Documentation
 This project was aimed to be used as a **GDExtension Library**.
+
 ## How Loading Works
-- Based on Godot's source code, the `load` function is a dynamic function that calls `ResourceImporter`. \
-- Then it handles some extra stuff before it is detected as an OGG file which it then calls `resource_import_ogg_vorbis`. \
+- Based on Godot's source code, the `load` function is a dynamic function that calls `ResourceImporter` -> `ResourceFormatImporter`.
+- It handles some extra stuff before it is detected as an OGG file, then it calls `resource_importer_ogg_vorbis`.
+- Afterwards, it decodes it with the OGG library from Xiph via a C++ Byte Array from reading a file.
+- Then it gives the data to an `OGGPacketSequence` before being returned as an `AudioStreamOGGVorbis` instance.
+
+## How Decoding Works
+- `OGGPacketSequence` has three fields/properties.
