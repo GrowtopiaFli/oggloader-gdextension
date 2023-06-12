@@ -1,6 +1,7 @@
 ![](img/OggLoader.svg) \
 ![](https://img.shields.io/github/release-date/GrowtopiaFli/oggloader-gdextension?style=for-the-badge)
 ![](https://img.shields.io/github/last-commit/GrowtopiaFli/oggloader-gdextension/master?style=for-the-badge) \
+Made for Godot 4.0.3 (and up probably) \
 `OggLoader` is meant to be used with the `OggPacketSequence` class in Godot.
 
 # Goals
