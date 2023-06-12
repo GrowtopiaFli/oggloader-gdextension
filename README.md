@@ -41,7 +41,7 @@ This project was aimed to be used as a **GDExtension Library**.
 
 # API Usage
 The library will create a singleton named `OggLoader` which you can directly call in your `.gd` files.
-### `OggLoader.proc`
+## `OggLoader.proc`
 <img src="img/code2.svg" width="50%" height="50%"> \
 - This function processes the `PackedByteArray` and caches it with an **ID<-(IMPORTANT)**
 - It caches the `granule_positions` and `packet_data` for an `OGGPacketSequence`.
@@ -50,20 +50,20 @@ The library will create a singleton named `OggLoader` which you can directly cal
   <img src="img/code3.svg" width="50%" height="50%">
 - Note: I recommend you to check if it is cached first before calling this function so that it won't perform unnecessary things by doing `OggLoader.cached`. (Also, after you called proc and are done getting the `granule_positions` and `packet_data` variables, please uncache it if you don't want it to waste memory via `OggLoader.remove`)
 
-### `OggLoader.cached`
+## `OggLoader.cached`
 <img src="img/code4.svg" width="50%" height="50%"> \
 - This function checks if something was cached through an **ID**.
 - It returns a boolean. **True** if the specified ID is in the cache and **False** if it is not.
 - Example: \
   <img src="img/code5.svg" width="50%" height="50%">
 
-### `OggLoader.get_granule_positions`
+## `OggLoader.get_granule_positions`
 <img src="img/code6.svg" width="50%" height="50%"> \
 - This function searches the cache via the given **ID** then returns the `granule_positions`.
 - Example: \
   <img src="img/code7.svg" width="50%" height="50%">
   
-### `OggLoader.get_packet_data`
+## `OggLoader.get_packet_data`
 <img src="img/code8.svg" width="50%" height="50%"> \
 - This function searches the cache via the given **ID** then returns the `packet_data`.
 - Example: \
