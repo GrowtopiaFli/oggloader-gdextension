@@ -35,4 +35,4 @@ This project was aimed to be used as a **GDExtension Library**.
 - I also added a feature to read the metadata of the OGG file. `[sample_rate, bitrate, artist, title...]`
 
 # Setup
-Go onto the [Releases](/releases)
+- Download the library from the [Releases](https://github.com/GrowtopiaFli/oggloader-gdextension/releases).
