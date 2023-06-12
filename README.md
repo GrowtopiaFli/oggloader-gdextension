@@ -70,7 +70,7 @@ The library will create a singleton named `OggLoader` which you can directly cal
   <img src="img/code9.svg" width="50%" height="50%">
 
 ## OggLoader.clear
-<img src="img/code10.svg" width="50%" height="50%"<br />
+<img src="img/code10.svg" width="50%" height="50%"><br />
 - This function clears the cache.
 - Example: \
   <img src="img/code11.svg" width="50%" height="50%">
