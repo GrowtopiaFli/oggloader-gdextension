@@ -41,5 +41,5 @@ This project was aimed to be used as a **GDExtension Library**.
 
 # API Usage
 The library will create a singleton named `OggLoader` which you can directly call in your `.gd` files.
-- `OggLoader.proc`
+- `OggLoader.proc` \
   <img src="img/code2.svg" width="75%" height="75%">
