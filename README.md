@@ -30,3 +30,6 @@ This project was aimed to be used as a **GDExtension Library**.
 
 ## Solution
 - To process the `PackedByteArray` and get the `granule_positions` and `packet_data` for the `OGGPacketSequence`.
+
+## Extra
+- I also added a feature to read the metadata of the OGG file. `[sample_rate, bitrate, artist, title...]`
