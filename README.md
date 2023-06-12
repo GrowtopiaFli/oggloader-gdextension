@@ -26,11 +26,11 @@ This project was aimed to be used as a **GDExtension Library**.
 - Based on Godot's source code, the `load` function is a dynamic function that calls `ResourceImporter` -> `ResourceFormatImporter`.
 - It handles some extra stuff before it is detected as an OGG file, then it calls `resource_importer_ogg_vorbis`.
 - Afterwards, it decodes it with the OGG library from Xiph via a C++ Byte Array from reading a file.
-- Then it gives the data to an `OGGPacketSequence` before being returned as an `AudioStreamOGGVorbis` instance.
+- Then it gives the data to an `OggPacketSequence` before being returned as an `AudioStreamOGGVorbis` instance.
 <img src="img/code1.svg" width="50%" height="50%">
 
 ## Solution
-- To process the `PackedByteArray` and get the `granule_positions` and `packet_data` for the `OGGPacketSequence`.
+- To process the `PackedByteArray` and get the `granule_positions` and `packet_data` for the `OggPacketSequence`.
 
 ## Extras
 - I also added a feature to read the metadata of the OGG file. `[sample_rate, bitrate, artist, title...]`
