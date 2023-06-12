@@ -83,3 +83,10 @@ The library will create a singleton named `OggLoader` which you can directly cal
   <img src="img/code13.svg" width="50%" height="50%">
 
 ## OggLoader.get_ogg_metadata
+<img src="img/code14.svg" width="50%" height="50%"><br />
+- This special function only has one input. (A `PackedByteArray`)
+- It returns a Dictionary containing `info_data` and `comment_data`
+- `info_data` contains `[rate, channels, bitrate]`.
+- `comment_data` contains `[TITLE, VERSION, ALBUM, TRACKNUMBER, ARTIST, PERFORMER, COPYRIGHT, LICENSE, ORGANIZATION, DESCRIPTION, GENRE, DATE, LOCATION, CONTAINS, ISRC]`
+- Example: \
+  <img src="img/code15.svg" width="50%" height="50%">
