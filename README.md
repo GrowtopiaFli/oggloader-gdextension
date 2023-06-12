@@ -1,4 +1,4 @@
-![oggloader logo](img/OggLoader.png) \
+![oggloader logo](img/OggLoader.svg) \
 ![oggloader badge1](https://img.shields.io/github/release-date/GrowtopiaFli/oggloader-gdextension?style=for-the-badge)
 ![oggloader badge2](https://img.shields.io/github/last-commit/GrowtopiaFli/oggloader-gdextension/master?style=for-the-badge) \
 `OggLoader` is meant to be used with the `OggPacketSequence` class in Godot.
@@ -43,7 +43,7 @@ This project was aimed to be used as a **GDExtension Library**.
 The library will create a singleton named `OggLoader` which you can directly call in your `.gd` files.
 - `OggLoader.proc` \
   <img src="img/code2.svg" width="50%" height="50%">
-  - This function processes the `PackedByteArray` and caches it with an `ID`<-**(IMPORTANT)**
+  - This function processes the `PackedByteArray` and caches it with an **ID<-(IMPORTANT)**
   - It caches the `granule_positions` and `packet_data` for an `OGGPacketSequence`.
   - It returns a boolean. **True** if it was successful and **False** if it failed.
   - Example: \
@@ -55,3 +55,13 @@ The library will create a singleton named `OggLoader` which you can directly cal
   - It returns a boolean. **True** if the specified ID is in the cache and **False** if it is not.
   - Example: \
     <img src="img/code5.svg" width="50%" height="50%">
+- `OggLoader.get_granule_positions` \
+  <img src="img/code6.svg" width="50%" height="50%">
+  - This function searches the cache via the given **ID** then returns the `granule_positions`.
+  - Example: \
+    <img src="img/code7.svg" width="50%" height="50%">
+- `OggLoader.get_packet_data` \
+  <img src="img/code8.svg" width="50%" height="50%">
+  - This function searches the cache via the given **ID** then returns the `packet_data`.
+  - Example: \
+    <img src="img/code9.svg" width="50%" height="50%">
