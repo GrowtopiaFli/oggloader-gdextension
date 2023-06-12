@@ -70,7 +70,7 @@ The library will create a singleton named `OggLoader` which you can directly cal
   <img src="img/code9.svg" width="50%" height="50%">
 
 ## OggLoader.clear
-<img src="img/code10.svg" width="50%" height="50%"<br />
+<img src="img/code10.svg" width="50%" height="50%"><br />
 - This function clears the cache.
 - Example: \
   <img src="img/code11.svg" width="50%" height="50%">
@@ -90,3 +90,10 @@ The library will create a singleton named `OggLoader` which you can directly cal
 - `comment_data` contains `[TITLE, VERSION, ALBUM, TRACKNUMBER, ARTIST, PERFORMER, COPYRIGHT, LICENSE, ORGANIZATION, DESCRIPTION, GENRE, DATE, LOCATION, CONTAINS, ISRC]`
 - Example: \
   <img src="img/code15.svg" width="50%" height="50%">
+
+# Load Example
+An example of how you will load an external OGG file.
+<img src="img/code16.svg" width="50%" height="50%">
+
+# Sidenote
+Since the project is very new, expect bugs, and if you get any, please report it in the [Issues](https://github.com/GrowtopiaFli/oggloader-gdextension/issues) page thank you.
