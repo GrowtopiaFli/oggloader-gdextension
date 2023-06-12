@@ -29,3 +29,4 @@ This project was aimed to be used as a **GDExtension Library**.
 ![code1](img/code1.png)
 
 ## Solution
+- To process the `PackedByteArray` and get the `granule_positions` and `packet_data` for the `OGGPacketSequence`.
