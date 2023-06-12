@@ -47,7 +47,7 @@ The library will create a singleton named `OggLoader` which you can directly cal
   - It caches the `granule_positions` and `packet_data` for an `OGGPacketSequence`.
   - It returns a boolean. **True** if it was successful and **False** if it failed.
   - Example: \
-  <img src="img/code3.svg" width="50%" height="50%">
+    <img src="img/code3.svg" width="50%" height="50%">
   - Note: I recommend you to check if it is cached first before calling this function so that it won't perform unnecessary things by doing `OggLoader.cached`. (Also, after you called proc and are done getting the `granule_positions` and `packet_data` variables, please uncache it if you don't want it to waste memory via `OggLoader.remove`)
 - `OggLoader.cached` \
   <img src="img/code4.svg" width="50%" height="50%">
