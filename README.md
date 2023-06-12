@@ -34,4 +34,5 @@ This project was aimed to be used as a **GDExtension Library**.
 ## Extras
 - I also added a feature to read the metadata of the OGG file. `[sample_rate, bitrate, artist, title...]`
 
-# Usage
+# Setup
+Go onto the [Releases](/releases)
