@@ -45,5 +45,8 @@ The library will create a singleton named `OggLoader` which you can directly cal
   <img src="img/code2.svg" width="75%" height="75%">
   - This function processes the `PackedByteArray` and caches it with an `ID`<-**(IMPORTANT)**
   - It caches the `granule_positions` and `packet_data` for an `OGGPacketSequence`.
-  - Syntax: \
+  - Example: \
     <img src="img/code3.svg" width="75%" height="75%">
+  - Note: I recommend that you check if it's cached first before calling proc so that it doesn't do unnecessary things by doing `OggLoader.cached`. (Also, after you called proc and are done getting the `granule_positions` and `packet_data` variables, please uncache it if you don't want it to waste memory via `OggLoader.remove`)
+- `OggLoader.cached` \
+  <img src="img/code4.svg" width="75%" height="75%">
