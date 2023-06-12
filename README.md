@@ -13,7 +13,8 @@
 [NathanFranke's GDExtension Template](https://github.com/nathanfranke/gdextension) \
 [Xiph's Documentation](https://xiph.org/doc) \
 [Godot](https://github.com/godotengine/godot/tree/37d1dfef9d81aade27ab0c56fc6b6f12f6a08045) \
-[godot-cpp](https://github.com/godotengine/godot-cpp/tree/3a9118cb0dafef74773216c47a030c3a4a490747)
+[godot-cpp](https://github.com/godotengine/godot-cpp/tree/3a9118cb0dafef74773216c47a030c3a4a490747) \
+[minivorbis (working fork)](https://github.com/SeanTolstoyevski/minivorbis)
 
 # Info
 This project was aimed to be used as a **GDExtension Library**.
