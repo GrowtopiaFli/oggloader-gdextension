@@ -39,4 +39,7 @@ This project was aimed to be used as a **GDExtension Library**.
 - Extract it to your Godot project. (I recommend extracting the `oggloader` folder into the `addons` folder of your project)
 - Make sure there aren't any errors when you open your project.
 
-# Usage
+# API Usage
+The library will create a singleton named `OggLoader` which you can directly call in your `.gd` files.
+- `OggLoader.proc`
+  <img src="img/code2.svg">
